@@ -1,0 +1,245 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    border: 1px solid red;
+    padding: 0px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.app_css {
+    border: 1px solid yellowgreen;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/***********************/
+.css-wrap-text {
+  word-break:break-all;
+  font-size: xx-small;
+}
+
+.circle { 
+  width: 250px;
+  height: 250px;
+  background-color: #40a977;
+  border-radius: 50%;
+  float: left;
+}
+/***********************/
+.css-hover  {
+  cursor: pointer;
+}
+
+.css-hover:hover  {
+  background-color: grey;
+  color: white;
+}
+
+/**************************/
+
+
+.css_cursor_pointer
+{
+  cursor: pointer;
+}
+
+/***********************************/
+.css-showOverflow {
+  border: 10px solid darkgreen;
+  width: 100%;
+  height: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.css-showOverflow::-webkit-scrollbar-thumb {
+  background: transparent;
+  background: rgba(90, 90, 90);
+  opacity: 0.5;
+}
+
+.css-showOverflow::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.css-showOverflow::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  background: transparent;
+  opacity: 0.5;
+}
+
+/********************************************/
+
+.nav_css {
+    height: 7%;
+    width: 100%;
+    border: 0px solid cyan;
+}
+
+.nav_link_css {
+    color: darkgreen;
+}
+
+.nav_link_css:hover {
+    color: darkgreen;
+}
+
+
+
+
+
+/** T A B L E S **********************/
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+    .row_tr:hover {
+      background-color: greenyellow;
+      color: black;
+      cursor: pointer;
+    }
+
+  .css_tbody {
+    padding: 3px;
+    height: 500px;
+    max-height: 500px;
+
+    display: block;
+    overflow: auto;
+  }
+
+  thead, tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;/* even columns width , fix width of table too*/
+  }
+  
+  .css_tbody::-webkit-scrollbar-thumb {
+    background: transparent;
+    background: rgba(90, 90, 90);
+    opacity: 0.5;
+  }
+
+  .css_tbody::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  .css_tbody::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+    background: transparent;
+    opacity: 0.5;
+  }
+  /*tr:not(:first-child):hover {
+      background-color:yellow;
+  }*/
+/*************************/
+
+
+/********************/
+
+
+.css-table {
+  display: table;
+}
+
+.div-table {
+  display: table;
+  width: auto;
+  background-color: #eee;
+  border: 1px solid #666666;
+  border-spacing: 5px;
+  /* cellspacing:poor IE support for  this */
+}
+  
+.css-table-header {
+  display: table-header-group;
+  font-weight: bold;
+  background-color: rgb(191, 191, 191);
+}
+
+.css-table-body {
+  display: table-row-group;
+}
+
+.css-table-row {
+  display: table-row;
+}
+
+.css-table-header div,
+.css-table-row div {
+  display: table-cell;
+  padding: 0 6px;
+}
+
+.css-table-header div {
+  text-align: center;
+  border: 1px solid rgb(255, 255, 255);
+}
+/***************************************************/
+.div-table {
+  display: table;
+  width: auto;
+  background-color: #eee;
+  border: 1px solid #666666;
+  border-spacing: 5px;
+  /* cellspacing:poor IE support for  this */
+  height: 100px;
+}
+
+.div-table-row {
+  display: table-row;
+  width: auto;
+  clear: both;
+}
+
+.div-table-col {
+  float: left;
+  /* fix for  buggy browsers */
+  display: table-column;
+  width: 200px;
+  background-color: #ccc;
+}
+
+.div-table-colspan {
+  float: left;
+  /* fix for  buggy browsers */
+  display: table-column;
+  width: 100%;
+  background-color: #ccc;
+  text-align:center;
+}
+
+.div-table-labels {
+  /*display: table-header-group;*/
+  display: flex;
+  font-weight: bold;
+  background-color: rgb(191, 191, 191);
+  float: left;
+  /* fix for  buggy browsers */
+  /*display: table-column;*/
+  width: 100%;
+  background-color: #ccc;
+  text-align:center;
+}
+
+.div-table-labels div {
+  float: left;
+  /* fix for  buggy browsers */
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #ccc;
+  text-align:center;
+}

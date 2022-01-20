@@ -1,0 +1,186 @@
+.css-main-al {
+    border: 30px solid olivedrab;
+    height: 100%;
+}
+
+.css-section-al {
+    border: 3px solid rgb(148, 0, 211);
+    display: flex;
+    height: 80%;    
+}
+
+.css-header-al {
+    border: 3px solid #d2abd2;    
+    margin: 2px;
+    height: 10%;
+    padding: 1px;
+}
+
+.css-section-al_quarter {
+    border: 3px solid rgb(148, 0, 211);    
+    height: 80%;    
+    width: 100%;
+}
+
+.css-al-card {
+    border: 3px solid darkgreen;
+    height: 20%;
+    width: 99%;
+    margin: 3px;
+    padding: 1px;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    font-size: xx-small;
+    color:#f6cb08;
+}
+
+.css-al-card div {
+    border: 1px solid darkblue;
+    height: 99%;
+    width: 25%;
+    margin: 1px;
+    padding: 2px;
+    background-color: dimgrey;
+}
+
+.css-cat-na {
+    border: 3px solid darkorange;
+}
+/*.css-header-al {
+    border: 3px solid rgb(148, 0, 211);
+    display: flex;
+    width: 100%;    
+}*/
+/************************/
+/*CA*/
+.css-assigning-teacher {
+   border:  1px solid red !important;
+   display: inline-block;
+   flex-direction: row;
+}
+
+.css-assigning-teacher-asigned {
+    border:  0px solid darkgreen !important;
+    padding: 2px;
+    width: 99% !important;
+    height: 30% !important;
+    font-size: xx-small;
+    color: darkgreen;
+ }
+
+.css-assigning-teacher-priority {
+    border:  0px solid yellow !important;
+    width: 99% !important;
+    height: 30% !important;
+    font-size: xx-small;
+    text-align: right;
+    padding: 2px;
+    color: yellowgreen;
+ }
+
+ .css-assigning-teacher-hostiry {
+    border:  0px solid red !important;
+    width: 99% !important;
+    height: 30% !important;
+    font-size: xx-small;
+    text-align: right;
+    padding: 2px;
+    color: darkorange;
+ }
+
+/*****************************/
+.css-article-al {
+    border: 3px solid #d2abd2;
+    height: 100%;
+    padding: 3px;
+    padding-right: 7px;
+    width: 80%;
+
+}
+
+.css-aside-al-hstrcl {
+    border: 3px solid #d2abd2;
+    height: 100%;
+    width: 10%;
+}
+
+.css-aside-al {
+    border: 3px solid #d2abd2;
+    height: 100%;
+    width: 20%;
+}
+
+.css-al-gpaContainer {
+    border: 3px solid #d2abd2;
+    width: 100%;
+    height: 95%;
+}
+
+
+
+.css-al-gpa {
+    border: 1px solid white;
+    margin: 2px;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.css-al-gpa div {
+    border: 1px solid white;
+    margin: 2px;
+    padding: 1px;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.css-al-gpa:hover {
+    background-color: white;
+    color: black;
+}
+
+.css-al-gpa div:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid red;
+}
+
+/**************************/
+.css-footer-al {
+    border: 1px solid #d2abd2; 
+    display: flex;    
+    flex-direction: row-reverse;       
+    height: 10%;
+    margin: 2px;
+    padding: 1px;
+}
+
+.css-quarter-al {
+    border: 1px solid #d2abd2;
+    display: flex;
+    
+    width: 50%;
+    float: right;
+    direction: rtl;
+    height: 99%;
+    margin: 2px;
+    padding: 1px;
+}
+
+.css-quarter-al div {
+    border: 1px solid #d2abd2;
+    margin: 2px;
+    padding: 1px;
+    height: 95%;
+    width: 15%;
+    margin: 2px;
+    padding: 3px;
+}
+
+.css-quarter-al div:hover {
+    background-color: white;
+    cursor: pointer;
+    color: black;
+}

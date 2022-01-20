@@ -1,0 +1,179 @@
+.css_avlblty_main 
+{
+    border: 10px solid red;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.css_avlblty_modal
+{
+    border: 10px solid red;
+    width: 100%;
+    height: 550px;
+    position: inherit;
+}
+
+.css_avlblty_dflex {
+    display: flex;
+    flex-direction: row;
+    height: 125px;
+    font-size: 0.75em !important;
+}
+
+.css_avlbltMdls div {
+    border: 1px solid orangered;
+}
+
+.css-avlblty-main-header {
+    border: 10px solid darkorange;
+    display: flex;
+    margin: 0px;
+    height: 10%;
+    width: 100%;    
+}
+
+.css-avlblty-main-header div {
+    border: 1px solid darkorange;
+    width: 50%;    
+}
+
+.css-avlblty-main-article {
+    border: 10px solid darkorange;
+    display: flex;
+    margin: 0px;
+    width: 100%;
+    height: 90%;
+}
+
+.css-avlblty-main-article div {
+    border: 1px solid darkorange;
+    width: 50%;   
+}
+
+.css-avlblty-subjects {
+    border: 1px solid red  !important;
+    height: 90%  !important;
+    width: 100%  !important;
+    background: white;
+}
+
+.css-avlblty-subjects-header {
+    width: 100% !important;
+}
+
+.css-avlblty-subjects-header-left-icon {
+    width: auto !important;
+    height: auto !important;
+    padding: 1px;
+}
+
+.css-avlblty-subjects-header-subject {
+    width: 100% !important;
+    height: auto !important;
+    padding-left: 3px;
+}
+
+.css-avlblty-subjects-adigned-teachers-header {
+    width: 100% !important;
+    height: 10% !important;
+}
+
+.css-avlblty-subjects-asigned-teachers {
+    border: 1px solid red  !important;
+    height: 50%  !important;
+    width: 100%  !important;
+    background: white;
+}
+
+
+/*******************************/
+
+
+.css-avlblty-subjects-middle {
+    border: 3px solid blue !important;
+}
+
+.css-avlblty-subjects-middle div {
+    width: 100%;
+    height: 50%;
+}
+
+.css-avlblty-subjects-middle-header-ta {
+    width: 100%;
+    height: 15% !important;
+}
+
+.css-avlblty-subjects-middle-body-ta {
+    height: 85% !important;
+    border: 3px solid red !important;
+    padding: 3px;
+}
+
+/******************/
+
+.css-card-body {
+    display: flex;
+    padding: 1px;
+    border: 3px solid cyan !important;
+    margin: 2px;
+    min-height: 35px;
+    height: 50px !important;
+}
+
+.css-card-body-img {
+    max-height: 73px !important;
+    max-width: 73px !important;
+    max-width: inherit !important;    
+    height: 50px !important;
+}
+
+.css-card-body-img-container {
+    max-height: 77px !important;
+    max-width: 77px !important;
+    margin: 2px !important;
+    padding: 1px !important;
+}
+
+.css-card-body-container {
+    max-height: 77px !important;
+    max-width: 73% !important;
+    margin: 2px !important;
+    padding: 1px !important;
+}
+
+.css-avlblty-subjects-header-duration {
+    margin: 2px;
+    border: 2px solid darkgreen;
+    padding: 1px;
+    width: 45% !important;
+    min-width: 100px;
+}
+
+.css-avlblty-subjects-asigned-teachers-card {
+    border: 3px solid red;
+    min-height: 300px;
+    position: initial !important;
+
+}
+
+.css-avlblty-subjects-asigned-teachers-header {
+    display: flex;
+    max-height: 25px;
+    width: 100% !important;
+    border: 3px solid rgb(rgb(114, 153, 8), rgb(93, 185, 93), rgb(18, 18, 129));
+    margin: 1px;
+}
+
+.css-avlblty-subjects-asigned-teachers-header-name {
+    width: 90% !important;
+    height: auto !important;
+}
+
+.css-avlblty-subjects-asigned-teachers-header-delete {
+    width: 10% !important;
+    height: auto !important;
+}
+
+
+.css-avlblty-subjects-historical-teachers {}

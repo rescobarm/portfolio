@@ -1,0 +1,68 @@
+/********************************************/
+
+.layout_css{
+  border: 1px solid orange;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.outlet_css {
+    border: 10px solid darkmagenta;
+    width: 100%;
+    height: 90% !important;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: absolute;
+  }
+  
+  .outlet_css::-webkit-scrollbar-thumb {
+    background: transparent;
+    background: rgba(90, 90, 90);
+    opacity: 0.5;
+  }
+  
+  .outlet_css::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  .outlet_css::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.2);
+    background: transparent;
+    opacity: 0.5;
+  }
+  /********************************************/
+
+
+.css-main {
+    border: 1px solid red;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.header_css {
+    border: 10px solid red;
+    height: auto
+  }
+/**************************/
+
+
+
+
+/********************************/
+.sb {
+    border: 3px solid darkred;
+}
+.css-list {
+    background: transparent;
+}
+
+.show_border {
+    border: 10px solid darkorange;
+    margin: 3px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
