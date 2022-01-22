@@ -13,6 +13,7 @@
 /build
 /public/ws_restf/conexion.php
 /casel_app/public/ws_restf/conexion.php
+/src/firebase/firebaseConf.tsx
 
 # misc
 .DS_Store

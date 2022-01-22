@@ -24,6 +24,8 @@ import Menu from "./components/AcademicLoad/Views/user-menu/Menu";
 import _main_ from "./components/AcademicLoad/Views/_main_";
 import UsrDshbrd from "./systms/usrs/views/UsrDshbrd";
 import __main__ from "./systms/__main__";
+import { SignUp } from "./systms/usrs/views/SignUp";
+import { MenuCRUD } from "./systms/usrs/views/MenuCRUD";
 
 export default function App() {
 /*
@@ -56,7 +58,8 @@ export default function App() {
             path="AcademicLoadConf/:id&:career&:idG&:group"
             element={<AcademicLoadConf />}
           />
-          <Route path="Availability" element={<Availability/>} />
+          <Route path="MenuCRUD" element={<MenuCRUD />} />
+          <Route path="SignUp" element={<SignUp />} />
           <Route path="Disponibilities" element={<Disponibilities />} />
           <Route path="AcademicLoadSEL" element={<AcademicLoadSEL />} />
           <Route path="AcademicCalendar" element={<AcademicCalendar />} />
