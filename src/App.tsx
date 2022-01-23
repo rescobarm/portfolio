@@ -16,7 +16,7 @@ import Home from "./components/AcademicLoad/Views/Home";
 import Test from "./components/AcademicLoad/Views/Test";
 import AcademicLoadSEL from "./components/AcademicLoad/Views/AcademicLoadSEL";
 
-import  db from './firebase/firebaseConf';
+//import  db from './firebase/firebaseConf';
 import {getFirestore, collection, getDocs } from 'firebase/firestore'
 import { Console } from "console";
 import { useEffect } from "react";

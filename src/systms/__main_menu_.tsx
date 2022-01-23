@@ -3,7 +3,8 @@
 import { collection, getDocs } from 'firebase/firestore';
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom';
-import db from '../firebase/firebaseConf';
+import { db } from '../datas/firebase/firebaseConf';
+//import db from '../firebase/firebaseConf';
 
 interface Props {
     
@@ -96,7 +97,7 @@ class __main_menu_ extends Component<Props, State> {
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     {
                         this.state.OMenus.map((item: IMenu, index: number) => (
-                            <li key={ item.idMenu } className="nav-item btn-outline-success">
+                            <li key={ item.NameMenu } className="nav-item btn-outline-success">
                                 <Link className="nav-link active " to={ item.Action }>{ item.NameMenu }</Link>
                             </li>                            
                         ))
