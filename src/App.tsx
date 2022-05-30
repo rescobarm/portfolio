@@ -10,6 +10,8 @@ import './components/AcademicLoad/Views/css/index.css';
 import AcademicLoadConf from "./components/AcademicLoad/Views/AcademicLoadConf";
 
 import image from './components/Assets/iexpro.png';
+
+
 import AcademicCalendar from "./components/AcademicLoad/Views/AcademicCalendar";
 import Availability from "./components/AcademicLoad/Views/Availability";
 import Home from "./components/AcademicLoad/Views/Home";
