@@ -26,6 +26,7 @@ import UsrDshbrd from "./systms/usrs/views/UsrDshbrd";
 import __main__ from "./systms/__main__";
 import { SignUp } from "./systms/usrs/views/SignUp";
 import { MenuCRUD } from "./systms/usrs/views/MenuCRUD";
+import MEIndex from "./systms/usrs/views/MEIndex";
 
 export default function App() {
 /*
@@ -52,7 +53,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<__main__ />}>
           <Route index element={<UsrDshbrd />} />
-          <Route path="*" element={<UsrDshbrd />} />{/* Using path="*"" means "match anything", so this route acts like a catch-all for URLs that we don't have explicit routes for. */}          
+          {/*<Route path="*" element={<UsrDshbrd />} />*/}
+          <Route path="*" element={<MEIndex />} />
+          
           <Route path="AcademicLoads/:id&:idG" element={<AcademicLoads />} />
           <Route
             path="AcademicLoadConf/:id&:career&:idG&:group"

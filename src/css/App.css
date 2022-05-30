@@ -14,6 +14,13 @@ html, body {
     position: absolute;
 }
 
+/* CSS INDEX ME*/
+.css-index-me {
+  background-color: #40a977;
+  width: 100%;
+  height: 100%;
+}
+
 /***********************/
 .css-wrap-text {
   word-break:break-all;
