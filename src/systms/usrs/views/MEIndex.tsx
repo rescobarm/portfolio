@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Chart } from 'react-google-charts'
 import img01 from '../../../components/Assets/C01.jpg';
-import img02 from '../../../components/Assets/C01.jpg';
+import img02 from '../../../components/Assets/C02.jpg';
 
 interface Props {
     
@@ -35,7 +35,7 @@ export default class MEIndex extends Component<Props, State> {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-5 pb-4 pb-lg-0">
-                                <img className="img-fluid w-100" src="img/about.jpg" alt="" />
+                                <img className="img-fluid w-100" src={ img02 } alt="" />
                                 <div className="bg-primary text-dark text-center p-4">
                                     <h3 className="m-0">25+ Years Experience</h3>
                                 </div>
@@ -172,7 +172,7 @@ export default class MEIndex extends Component<Props, State> {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-5">
-                                <img className="img-fluid w-100" src="img/feature.jpg" alt="" />
+                                <img className="img-fluid w-100" src={ img01 } alt="" />
                             </div>
                             <div className="col-lg-7 py-5 py-lg-0">
                                 <h6 className="text-primary text-uppercase font-weight-bold">Why Choose Us</h6>
@@ -273,7 +273,7 @@ export default class MEIndex extends Component<Props, State> {
                         <div className="row">
                             <div className="col-lg-3 col-md-6">
                                 <div className="team card position-relative overflow-hidden border-0 mb-5">
-                                    <img className="card-img-top" src="img/team-1.jpg" alt="" />
+                                    <img className="card-img-top" src={ img01 } alt="" />
                                     <div className="card-body text-center p-0">
                                         <div className="team-text d-flex flex-column justify-content-center bg-secondary">
                                             <h5 className="font-weight-bold">Full Name</h5>
@@ -290,7 +290,7 @@ export default class MEIndex extends Component<Props, State> {
                             </div>
                             <div className="col-lg-3 col-md-6">
                                 <div className="team card position-relative overflow-hidden border-0 mb-5">
-                                    <img className="card-img-top" src="img/team-2.jpg" alt="" />
+                                    <img className="card-img-top" src={ img02 } alt="" />
                                     <div className="card-body text-center p-0">
                                         <div className="team-text d-flex flex-column justify-content-center bg-secondary">
                                             <h5 className="font-weight-bold">Full Name</h5>
@@ -307,7 +307,7 @@ export default class MEIndex extends Component<Props, State> {
                             </div>
                             <div className="col-lg-3 col-md-6">
                                 <div className="team card position-relative overflow-hidden border-0 mb-5">
-                                    <img className="card-img-top" src="img/team-3.jpg" alt="" />
+                                    <img className="card-img-top" src={ img01 } alt="" />
                                     <div className="card-body text-center p-0">
                                         <div className="team-text d-flex flex-column justify-content-center bg-secondary">
                                             <h5 className="font-weight-bold">Full Name</h5>
@@ -324,7 +324,7 @@ export default class MEIndex extends Component<Props, State> {
                             </div>
                             <div className="col-lg-3 col-md-6">
                                 <div className="team card position-relative overflow-hidden border-0 mb-5">
-                                    <img className="card-img-top" src="img/team-4.jpg" alt="" />
+                                    <img className="card-img-top" src={ img02 } alt="" />
                                     <div className="card-body text-center p-0">
                                         <div className="team-text d-flex flex-column justify-content-center bg-secondary">
                                             <h5 className="font-weight-bold">Full Name</h5>
@@ -354,7 +354,7 @@ export default class MEIndex extends Component<Props, State> {
                             <div className="position-relative bg-secondary p-4">
                                 <i className="fa fa-3x fa-quote-right text-primary position-absolute" style={{ top: '-6px', right: 0}}></i>
                                 <div className="d-flex align-items-center mb-3">
-                                    <img className="img-fluid rounded-circle" src="img/testimonial-1.jpg" style={{width: '60px', height: '60px'}} alt="" />
+                                    <img className="img-fluid rounded-circle" src={ img01 } style={{width: '60px', height: '60px'}} alt="" />
                                     <div className="ml-3">
                                         <h6 className="font-weight-semi-bold m-0">Client Name</h6>
                                         <small>- Profession</small>
@@ -365,7 +365,7 @@ export default class MEIndex extends Component<Props, State> {
                             <div className="position-relative bg-secondary p-4">
                                 <i className="fa fa-3x fa-quote-right text-primary position-absolute" style={{top: '-6px', right: 0}}></i>
                                 <div className="d-flex align-items-center mb-3">
-                                    <img className="img-fluid rounded-circle" src="img/testimonial-2.jpg" style={{ width: '60px', height: '60px' }} alt="" />
+                                    <img className="img-fluid rounded-circle" src={ img02 } style={{ width: '60px', height: '60px' }} alt="" />
                                     <div className="ml-3">
                                         <h6 className="font-weight-semi-bold m-0">Client Name</h6>
                                         <small>- Profession</small>
@@ -376,7 +376,7 @@ export default class MEIndex extends Component<Props, State> {
                             <div className="position-relative bg-secondary p-4">
                                 <i className="fa fa-3x fa-quote-right text-primary position-absolute" style={{top: '-6px', right: 0}}></i>
                                 <div className="d-flex align-items-center mb-3">
-                                    <img className="img-fluid rounded-circle" src="img/testimonial-3.jpg" style={{ width: '60px', height: '60px' }} alt="" />
+                                    <img className="img-fluid rounded-circle" src={ img01 } style={{ width: '60px', height: '60px' }} alt="" />
                                     <div className="ml-3">
                                         <h6 className="font-weight-semi-bold m-0">Client Name</h6>
                                         <small>- Profession</small>
@@ -387,7 +387,7 @@ export default class MEIndex extends Component<Props, State> {
                             <div className="position-relative bg-secondary p-4">
                                 <i className="fa fa-3x fa-quote-right text-primary position-absolute" style={{top: '-6px', right: 0}}></i>
                                 <div className="d-flex align-items-center mb-3">
-                                    <img className="img-fluid rounded-circle" src="img/testimonial-4.jpg" style={{ width: '60px', height: '60px' }} alt="" />
+                                    <img className="img-fluid rounded-circle" src={ img02 } style={{ width: '60px', height: '60px' }} alt="" />
                                     <div className="ml-3">
                                         <h6 className="font-weight-semi-bold m-0">Client Name</h6>
                                         <small>- Profession</small>
@@ -408,7 +408,7 @@ export default class MEIndex extends Component<Props, State> {
                         <div className="row">
                             <div className="col-md-6 mb-5">
                                 <div className="position-relative">
-                                    <img className="img-fluid w-100" src="img/blog-1.jpg" alt="" />
+                                    <img className="img-fluid w-100" src={ img01 } alt="" />
                                     <div className="position-absolute bg-primary d-flex flex-column align-items-center justify-content-center rounded-circle"
                                         style={{ width: '60px', height: '60px', bottom: '-30px', right: '30px'}}>
                                         <h4 className="font-weight-bold mb-n1">01</h4>
@@ -418,7 +418,7 @@ export default class MEIndex extends Component<Props, State> {
                                 <div className="bg-secondary" style={{ padding: '30px' }}>
                                     <div className="d-flex mb-3">
                                         <div className="d-flex align-items-center">
-                                            <img className="rounded-circle" style={{ width: '40px', height: '40px' }} src="img/user.jpg" alt="" />
+                                            <img className="rounded-circle" style={{ width: '40px', height: '40px' }} src={ img02 } alt="" />
                                             <a className="text-muted ml-2" href="">John Doe</a>
                                         </div>
                                         <div className="d-flex align-items-center ml-4">
@@ -434,7 +434,7 @@ export default class MEIndex extends Component<Props, State> {
 
                             <div className="col-md-6 mb-5">
                                 <div className="position-relative">
-                                    <img className="img-fluid w-100" src="img/blog-2.jpg" alt="" />
+                                    <img className="img-fluid w-100" src={ img02 } alt="" />
                                     <div className="position-absolute bg-primary d-flex flex-column align-items-center justify-content-center rounded-circle"
                                         style={{ width: '60px', height: '60px', bottom: '-30px', right: '30px' }}>
                                         <h4 className="font-weight-bold mb-n1">01</h4>
@@ -444,7 +444,7 @@ export default class MEIndex extends Component<Props, State> {
                                 <div className="bg-secondary" style={{padding: '30px'}}>
                                     <div className="d-flex mb-3">
                                         <div className="d-flex align-items-center">
-                                            <img className="rounded-circle" style={{ width: '40px', height: '40px' }} src="img/user.jpg" alt="" />
+                                            <img className="rounded-circle" style={{ width: '40px', height: '40px' }} src={ img01 } alt="" />
                                             <a className="text-muted ml-2" href="">John Doe</a>
                                         </div>
                                         <div className="d-flex align-items-center ml-4">
