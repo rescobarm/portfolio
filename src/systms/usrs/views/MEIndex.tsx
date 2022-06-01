@@ -128,7 +128,7 @@ export default class MEIndex extends Component<Props, State> {
                     <div className="container">
                         <div className="text-center pb-2">
                             <h6 className="text-primary text-uppercase font-weight-bold">Our Services</h6>
-                            <h1 className="mb-4">Best Logistic Services</h1>
+                            <h1 className="mb-4 text-white">Best Logistic Services</h1>
                         </div>
                         <div className="row pb-3">
                             <div className="col-lg-3 col-md-6 text-center mb-5">
@@ -193,7 +193,7 @@ export default class MEIndex extends Component<Props, State> {
                     <div className="container">
                         <div className="text-center pb-2">
                             <h6 className="text-primary text-uppercase font-weight-bold">Pricing Plan</h6>
-                            <h1 className="mb-4">Affordable Pricing Packages</h1>
+                            <h1 className="mb-4 text-white">Affordable Pricing Packages</h1>
                         </div>
                         <div className="row">
                             <div className="col-md-4 mb-5">
@@ -268,7 +268,7 @@ export default class MEIndex extends Component<Props, State> {
                     <div className="container">
                         <div className="text-center pb-2">
                             <h6 className="text-primary text-uppercase font-weight-bold">Delivery Team</h6>
-                            <h1 className="mb-4">Meet Our Delivery Team</h1>
+                            <h1 className="mb-4 text-white">Meet Our Delivery Team</h1>
                         </div>
                         <div className="row">
                             <div className="col-lg-3 col-md-6">
@@ -348,7 +348,7 @@ export default class MEIndex extends Component<Props, State> {
                     <div className="container">
                         <div className="text-center pb-2">
                             <h6 className="text-primary text-uppercase font-weight-bold">Testimonial</h6>
-                            <h1 className="mb-4">Our Clients Say</h1>
+                            <h1 className="mb-4 text-white">Our Clients Say</h1>
                         </div>
                         <div className="owl-carousel testimonial-carousel">
                             <div className="position-relative bg-secondary p-4">
@@ -403,7 +403,7 @@ export default class MEIndex extends Component<Props, State> {
                     <div className="container">
                         <div className="text-center pb-2">
                             <h6 className="text-primary text-uppercase font-weight-bold">Our Blog</h6>
-                            <h1 className="mb-4">Latest From Blog</h1>
+                            <h1 className="mb-4 text-white">Latest From Blog</h1>
                         </div>
                         <div className="row">
                             <div className="col-md-6 mb-5">
